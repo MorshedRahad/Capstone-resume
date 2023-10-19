@@ -1,0 +1,33 @@
+
+.heading {
+  color: #667476c;
+  font-family: 'Bitter', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+}
+.container {
+  font-family: 'Bitter', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #1c4d6b, #e6e8df, #7bb4cf);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
